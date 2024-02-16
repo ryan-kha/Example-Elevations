@@ -8,7 +8,7 @@ import unittest  # Guide at: https://docs.python.org/3/library/unittest.html
 
 import side_view_detector
 
-_OUTPUT_PATH = "/Users/ryankhamneian/Desktop/Later Load Wind Foce Calculator/gowrylakshmi_code_1/ryans_test_outputs"
+_OUTPUT_PATH = "side_view_detect_output"
 
 class SideViewDetectorTest(unittest.TestCase):
   """Class to test accuracy of side view detector."""
