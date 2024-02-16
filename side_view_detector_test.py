@@ -50,7 +50,7 @@ class SideViewDetectorTest(unittest.TestCase):
     return True
 
   def test_left_1_x(self):
-    image_path = "/Users/ryankhamneian/Desktop/Later Load Wind Foce Calculator/reviewed_gowrylakshmi_code_1/Side Elevations/left_1.png"
+    image_path = "Side Elevations/left_1.png"
     image_length = 44.2
 
     generated_results = side_view_detector.get_horizontal_pressure_areas_on_x(
@@ -84,7 +84,7 @@ class SideViewDetectorTest(unittest.TestCase):
     ))
 
   def test_left_2_x(self):
-    image_path = "/Users/ryankhamneian/Desktop/Later Load Wind Foce Calculator/reviewed_gowrylakshmi_code_1/Side Elevations/left_2.png"
+    image_path = "Side Elevations/left_2.png"
     image_length = 64.32
 
     generated_results = side_view_detector.get_horizontal_pressure_areas_on_x(
